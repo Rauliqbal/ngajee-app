@@ -1,4 +1,4 @@
-# my_app
+# ngajee_app
 
 A new Flutter project.
 
