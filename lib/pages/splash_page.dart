@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:ngajee_app/pages/home_page.dart';
 
 class SplashPage extends StatefulWidget {
@@ -30,7 +31,7 @@ class _SplashPageState extends State<SplashPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         width: double.infinity,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -39,9 +40,10 @@ class _SplashPageState extends State<SplashPage>
               'assets/images/ngajee.png',
               width: 220,
             ),
-            const Text(
+            Text(
               'Ngajee',
-              style: TextStyle(fontSize: 32, fontWeight: FontWeight.w700),
+              style: GoogleFonts.poppins(
+                  fontSize: 36, fontWeight: FontWeight.w700),
             )
           ],
         ),
