@@ -1,4 +1,4 @@
-# ngajee_app
+# my_mushaf
 
 A new Flutter project.
 
