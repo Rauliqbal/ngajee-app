@@ -1,6 +1,6 @@
 {
-    "name": "ngajee_app",
-    "short_name": "ngajee_app",
+    "name": "my_mushaf",
+    "short_name": "my_mushaf",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
