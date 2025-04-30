@@ -14,10 +14,16 @@ class PageWidget extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Positioned(
-              right: -50, top: -40, child: _bluredCircle(color: 0xFF00ADB5)),
+            right: -50,
+            top: -40,
+            child: _bluredCircle(color: 0xFF00ADB5),
+          ),
           Positioned(
-              left: -60, bottom: -50, child: _bluredCircle(color: 0xFF00ADB5)),
-          SafeArea(child: child)
+            left: -60,
+            bottom: -50,
+            child: _bluredCircle(color: 0xFF00ADB5),
+          ),
+          SafeArea(child: child),
         ],
       ),
     );
@@ -28,8 +34,9 @@ class PageWidget extends StatelessWidget {
       width: 161,
       height: 161,
       decoration: BoxDecoration(
-          color: Color(color).withOpacity(.6),
-          borderRadius: BorderRadius.circular(161)),
+        color: Color(color).withOpacity(.1),
+        borderRadius: BorderRadius.circular(161),
+      ),
       child: BackdropFilter(
         filter: ImageFilter.blur(sigmaX: 100, sigmaY: 100),
         child: Container(),
